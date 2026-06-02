@@ -1,0 +1,1 @@
+{"version":3,"file":"social-energy.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/social-energy.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AAI5D,eAAO,MAAM,sBAAsB;YACnB,WAAW,OAAO,QAAQ;sBAYhB,WAAW,OAAO,QAAQ;qBAS3B,WAAW,OAAO,QAAQ;CAwBlD,CAAC"}

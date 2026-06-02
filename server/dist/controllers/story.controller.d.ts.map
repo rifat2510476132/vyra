@@ -1,0 +1,1 @@
+{"version":3,"file":"story.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/story.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAInC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AAQ5D,eAAO,MAAM,eAAe;eAET,WAAW,OAAO,QAAQ;gBAkBzB,WAAW,OAAO,QAAQ;CAoC7C,CAAC"}

@@ -1,0 +1,30 @@
+import { Response } from 'express';
+import { AuthRequest } from '../middleware/auth.middleware';
+export declare const aiController: {
+    caption(req: AuthRequest, res: Response): Promise<Response<any, Record<string, any>>>;
+    twin(req: AuthRequest, res: Response): Promise<Response<any, Record<string, any>>>;
+    improvePost: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    commentSuggestions: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    replySuggestions: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    feedPersonalization: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    communityModeration: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    spamDetection: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    toxicDetection: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    trendDetection: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    creatorAssistant: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    friendRecommendations: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    communityRecommendations: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    interestAnalysis: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    smartSearch: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    memoryAssistant: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    lifeOrganizer: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    digitalIdentity: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    reputationEngine: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    growthCoach: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    intentEngine: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    communityArchitect: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    knowledgeCompanion: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    creativityAssistant: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+    voiceAssistant: (req: AuthRequest, res: Response) => Promise<Response<any, Record<string, any>>>;
+};
+//# sourceMappingURL=ai.controller.d.ts.map

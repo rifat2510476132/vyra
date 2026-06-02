@@ -1,0 +1,1 @@
+{"version":3,"file":"dream-board.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/dream-board.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AAK5D,eAAO,MAAM,oBAAoB;cACf,WAAW,OAAO,QAAQ;gBAQxB,WAAW,OAAO,QAAQ;wBAelB,WAAW,OAAO,QAAQ;CASrD,CAAC"}

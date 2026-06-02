@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vyra-postgres
+    environment:
+      POSTGRES_USER: vyra
+      POSTGRES_PASSWORD: vyra_secret
+      POSTGRES_DB: vyra_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - vyra_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U vyra -d vyra_db']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: ../server
+      dockerfile: ../deployment/Dockerfile
+    container_name: vyra-server
+    ports:
+      - '5000:5000'
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+      DATABASE_URL: postgresql://vyra:vyra_secret@postgres:5432/vyra_db
+      CLIENT_URL: http://localhost:3000
+      JWT_ACCESS_SECRET: change_me_in_production
+      JWT_REFRESH_SECRET: change_me_refresh_in_production
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  vyra_pg_data:

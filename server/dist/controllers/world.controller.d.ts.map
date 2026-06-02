@@ -1,0 +1,1 @@
+{"version":3,"file":"world.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/world.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AAI5D,eAAO,MAAM,eAAe;eACT,WAAW,OAAO,QAAQ;cAQ3B,WAAW,OAAO,QAAQ;gBAgBxB,WAAW,OAAO,QAAQ;CAS7C,CAAC"}

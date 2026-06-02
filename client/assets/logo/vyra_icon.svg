@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VYRA icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7B2FBE"/><stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0A0A0F"/>
+  <path fill="url(#g)" d="M16 12 L32 52 L40 28 L48 12 L40 12 L34 26 L32 30 L30 26 L24 12 Z"/>
+</svg>

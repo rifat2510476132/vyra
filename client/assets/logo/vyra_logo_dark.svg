@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="VYRA dark">
+  <rect width="512" height="512" rx="96" fill="#0A0A0F"/>
+  <path fill="#7B2FBE" filter="url(#glow)" d="M128 96 L256 416 L320 224 L384 96 L320 96 L272 208 L256 240 L240 208 L192 96 Z"/>
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="6"/></filter></defs>
+</svg>

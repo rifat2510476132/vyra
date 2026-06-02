@@ -1,0 +1,1 @@
+{"version":3,"file":"group.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/group.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AA4C5D,eAAO,MAAM,eAAe;cACV,WAAW,OAAO,QAAQ;gBAgBxB,WAAW,OAAO,QAAQ;cAgB5B,WAAW,OAAO,QAAQ;CAU3C,CAAC"}

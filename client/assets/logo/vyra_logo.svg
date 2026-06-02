@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="VYRA">
+  <defs>
+    <linearGradient id="vyraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B2FBE"/>
+      <stop offset="50%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#9B59B6" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#00D4FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0A0A0F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#0A0A0F"/>
+  <g filter="url(#glow)">
+    <path fill="url(#vyraGrad)" d="M128 96 L256 416 L320 224 L384 96 L320 96 L272 208 L256 240 L240 208 L192 96 Z"/>
+    <ellipse cx="248" cy="200" rx="72" ry="88" fill="url(#nebula)"/>
+    <circle cx="220" cy="180" r="4" fill="#E8E8F0" opacity="0.9"/>
+    <circle cx="268" cy="210" r="3" fill="#FFD700" opacity="0.85"/>
+    <circle cx="290" cy="170" r="2.5" fill="#00D4FF" opacity="0.9"/>
+    <circle cx="235" cy="230" r="2" fill="#E8E8F0" opacity="0.7"/>
+  </g>
+</svg>

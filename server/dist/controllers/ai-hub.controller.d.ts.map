@@ -1,0 +1,1 @@
+{"version":3,"file":"ai-hub.controller.d.ts","sourceRoot":"","sources":["../../src/controllers/ai-hub.controller.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AACnC,OAAO,EAAE,WAAW,EAAE,MAAM,+BAA+B,CAAC;AAU5D,eAAO,MAAM,eAAe;mBACX,WAAW,OAAO,QAAQ;gBASvB,WAAW,OAAO,QAAQ;gBAa1B,WAAW,OAAO,QAAQ;CAW7C,CAAC"}

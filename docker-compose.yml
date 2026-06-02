@@ -1,0 +1,31 @@
+# Vyra full stack — run from repo root:
+#   docker compose up --build
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: vyra
+    ports:
+      - "5432:5432"
+    volumes:
+      - vyra_pg:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./deployment
+      dockerfile: Dockerfile
+    env_file:
+      - ./server/.env
+    environment:
+      DATABASE_URL: postgresql://postgres:password@postgres:5432/vyra
+      PORT: "5000"
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+
+volumes:
+  vyra_pg:

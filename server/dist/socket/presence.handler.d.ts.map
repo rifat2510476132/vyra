@@ -1,0 +1,1 @@
+{"version":3,"file":"presence.handler.d.ts","sourceRoot":"","sources":["../../src/socket/presence.handler.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AAE3C,wBAAgB,wBAAwB,CAAC,GAAG,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM,GAAG;IAAE,MAAM,EAAE,MAAM,CAAA;CAAE,QAOxF"}

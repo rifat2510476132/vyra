@@ -1,0 +1,1 @@
+{"version":3,"file":"presence.handler.js","sourceRoot":"","sources":["../../src/socket/presence.handler.ts"],"names":[],"mappings":";;AAEA,4DAOC;AAPD,SAAgB,wBAAwB,CAAC,GAAW,EAAE,MAAmC;IACvF,MAAM,CAAC,EAAE,CAAC,iBAAiB,EAAE,CAAC,QAAgB,EAAE,EAAE;QAChD,MAAM,CAAC,SAAS,CAAC,IAAI,CAAC,kBAAkB,EAAE;YACxC,MAAM,EAAE,MAAM,CAAC,MAAM;YACrB,QAAQ;SACT,CAAC,CAAC;IACL,CAAC,CAAC,CAAC;AACL,CAAC"}
