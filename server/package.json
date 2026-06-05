@@ -5,10 +5,10 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "prisma:generate": "npx prisma generate --schema=prisma/schema.prisma",
+    "prisma:generate": "node ./node_modules/prisma/build/index.js generate --schema=prisma/schema.prisma",
     "build": "npm run prisma:generate && tsc",
     "start": "node dist/server.js",
-    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:migrate": "node ./node_modules/prisma/build/index.js migrate dev",
     "prisma:seed": "tsx prisma/seed.ts",
     "postinstall": "npm run prisma:generate"
   },
