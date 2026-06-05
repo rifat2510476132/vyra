@@ -14,7 +14,6 @@
     "declarationMap": true,
     "sourceMap": true,
     "moduleResolution": "node16",
-    "types": ["node", "express"],
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
