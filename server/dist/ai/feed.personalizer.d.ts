@@ -11,7 +11,7 @@ export declare function getPersonalizedFeed(userId: string, mood?: string, limit
             parentId: string | null;
         }[];
         reactions: {
-            type: import(".prisma/client").$Enums.ReactionType;
+            type: import("@prisma/client").$Enums.ReactionType;
             id: string;
             createdAt: Date;
             deletedAt: Date | null;
@@ -31,9 +31,9 @@ export declare function getPersonalizedFeed(userId: string, mood?: string, limit
                 socialEnergyScore: number;
                 isPrivate: boolean;
                 coverUrl: string | null;
-                mood: import(".prisma/client").$Enums.UserMood | null;
+                mood: import("@prisma/client").$Enums.UserMood | null;
                 bio: string | null;
-                smartPresence: import(".prisma/client").$Enums.SmartPresence | null;
+                smartPresence: import("@prisma/client").$Enums.SmartPresence | null;
                 location: string | null;
                 website: string | null;
                 birthDate: Date | null;
@@ -45,7 +45,7 @@ export declare function getPersonalizedFeed(userId: string, mood?: string, limit
             phone: string | null;
             passwordHash: string;
             googleId: string | null;
-            role: import(".prisma/client").$Enums.UserRole;
+            role: import("@prisma/client").$Enums.UserRole;
             isVerified: boolean;
             isActive: boolean;
             lastLoginAt: Date | null;
@@ -54,7 +54,7 @@ export declare function getPersonalizedFeed(userId: string, mood?: string, limit
             deletedAt: Date | null;
         };
     } & {
-        type: import(".prisma/client").$Enums.PostType;
+        type: import("@prisma/client").$Enums.PostType;
         id: string;
         createdAt: Date;
         updatedAt: Date;
@@ -65,7 +65,7 @@ export declare function getPersonalizedFeed(userId: string, mood?: string, limit
         mediaUrls: import("@prisma/client/runtime/library").JsonValue | null;
         pollData: import("@prisma/client/runtime/library").JsonValue | null;
         emotionSignature: string | null;
-        visibility: import(".prisma/client").$Enums.PostVisibility;
+        visibility: import("@prisma/client").$Enums.PostVisibility;
     })[];
     mood: string;
     interests: string[];

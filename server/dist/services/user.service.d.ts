@@ -5,14 +5,14 @@ export declare class UserService {
         id: string;
         phone: string | null;
         googleId: string | null;
-        role: import(".prisma/client").$Enums.UserRole;
+        role: import("@prisma/client").$Enums.UserRole;
         isVerified: boolean;
         isActive: boolean;
         lastLoginAt: Date | null;
         createdAt: Date;
         updatedAt: Date;
         deletedAt: Date | null;
-        profile: import(".prisma/client").Profile | null;
+        profile: import("@prisma/client").Profile | null;
     }>;
     updateProfile(userId: string, data: {
         displayName?: string;
@@ -34,9 +34,9 @@ export declare class UserService {
         socialEnergyScore: number;
         isPrivate: boolean;
         coverUrl: string | null;
-        mood: import(".prisma/client").$Enums.UserMood | null;
+        mood: import("@prisma/client").$Enums.UserMood | null;
         bio: string | null;
-        smartPresence: import(".prisma/client").$Enums.SmartPresence | null;
+        smartPresence: import("@prisma/client").$Enums.SmartPresence | null;
         location: string | null;
         website: string | null;
         birthDate: Date | null;
@@ -47,14 +47,14 @@ export declare class UserService {
         id: string;
         phone: string | null;
         googleId: string | null;
-        role: import(".prisma/client").$Enums.UserRole;
+        role: import("@prisma/client").$Enums.UserRole;
         isVerified: boolean;
         isActive: boolean;
         lastLoginAt: Date | null;
         createdAt: Date;
         updatedAt: Date;
         deletedAt: Date | null;
-        profile: import(".prisma/client").Profile | null;
+        profile: import("@prisma/client").Profile | null;
     }[]>;
     deleteAccount(userId: string): Promise<void>;
 }

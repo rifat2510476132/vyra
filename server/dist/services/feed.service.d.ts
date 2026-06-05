@@ -14,7 +14,7 @@ export declare class FeedService {
                 } | null;
             };
         } & {
-            type: import(".prisma/client").$Enums.PostType;
+            type: import("@prisma/client").$Enums.PostType;
             id: string;
             createdAt: Date;
             updatedAt: Date;
@@ -25,7 +25,7 @@ export declare class FeedService {
             mediaUrls: import("@prisma/client/runtime/library").JsonValue | null;
             pollData: import("@prisma/client/runtime/library").JsonValue | null;
             emotionSignature: string | null;
-            visibility: import(".prisma/client").$Enums.PostVisibility;
+            visibility: import("@prisma/client").$Enums.PostVisibility;
         })[];
         page: number;
         limit: number;

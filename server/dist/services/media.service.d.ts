@@ -2,7 +2,7 @@ export declare const mediaService: {
     isConfigured(): boolean;
     upload(uploaderId: string, file: Express.Multer.File, purpose?: string): Promise<{
         media: {
-            type: import(".prisma/client").$Enums.MediaType;
+            type: import("@prisma/client").$Enums.MediaType;
             id: string;
             createdAt: Date;
             deletedAt: Date | null;
@@ -33,9 +33,9 @@ export declare const mediaService: {
         socialEnergyScore: number;
         isPrivate: boolean;
         coverUrl: string | null;
-        mood: import(".prisma/client").$Enums.UserMood | null;
+        mood: import("@prisma/client").$Enums.UserMood | null;
         bio: string | null;
-        smartPresence: import(".prisma/client").$Enums.SmartPresence | null;
+        smartPresence: import("@prisma/client").$Enums.SmartPresence | null;
         location: string | null;
         website: string | null;
         birthDate: Date | null;
@@ -52,9 +52,9 @@ export declare const mediaService: {
         socialEnergyScore: number;
         isPrivate: boolean;
         coverUrl: string | null;
-        mood: import(".prisma/client").$Enums.UserMood | null;
+        mood: import("@prisma/client").$Enums.UserMood | null;
         bio: string | null;
-        smartPresence: import(".prisma/client").$Enums.SmartPresence | null;
+        smartPresence: import("@prisma/client").$Enums.SmartPresence | null;
         location: string | null;
         website: string | null;
         birthDate: Date | null;

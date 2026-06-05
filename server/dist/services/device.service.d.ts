@@ -5,7 +5,7 @@ export declare const deviceService: {
         updatedAt: Date;
         userId: string;
         token: string;
-        platform: import(".prisma/client").$Enums.DevicePlatform;
+        platform: import("@prisma/client").$Enums.DevicePlatform;
     }>;
     unregister(userId: string, token: string): Promise<{
         ok: boolean;

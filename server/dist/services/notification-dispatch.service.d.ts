@@ -10,7 +10,7 @@ export type NotifyParams = {
 };
 export declare function notifyUser(params: NotifyParams): Promise<{
     body: string | null;
-    type: import(".prisma/client").$Enums.NotificationType;
+    type: import("@prisma/client").$Enums.NotificationType;
     id: string;
     createdAt: Date;
     deletedAt: Date | null;
